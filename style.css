@@ -80,3 +80,53 @@ li, a {
     width:600px;
     text-align:center;
 }
+
+.info-pane {
+    display:flex;
+    flex-direction: column;
+    height:400px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight:bolder;
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-main {
+    display:flex;
+    gap:40px;
+    justify-content: center;
+}
+
+.info-one,
+.info-two,
+.info-three,
+.info-four {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:150px;
+}
+
+.one-image,
+.two-image,
+.three-image,
+.four-image {
+    height:150px;
+    width:150px;
+    border-radius:10px;
+    border: 5px solid blue;
+    margin-bottom:10px;
+}
+
+.one-text,
+.two-text,
+.three-text,
+.four-text {
+    text-align:center;
+}
+
