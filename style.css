@@ -37,12 +37,18 @@ li, a {
     text-decoration: none;
 }
 
+.intro,
+.info-pane,
+.quote,
+.outro {
+    height:400px;
+}
+
 
 .intro {
     display:flex;
     justify-content: space-around;
     align-items:center;
-    height:400px;
     padding: 0 100px 0 100px;
     gap: 50px;
 }
@@ -84,7 +90,6 @@ li, a {
 .info-pane {
     display:flex;
     flex-direction: column;
-    height:400px;
 }
 
 .info-header {
@@ -155,4 +160,48 @@ li, a {
 .quote-author {
     font-size:24px;
     text-align:right;
+}
+
+.outro {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outro-container {
+    height:150px;
+    width:800px;
+    border-radius: 8px;
+    background-color:#3882F6;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.outro-left-top,
+.outro-left-bottom {
+    color:white;
+}
+
+.outro-left-top {
+    font-size:24px;
+    font-weight:bold;
+}
+
+.outro-btn {
+    border:none;
+    color:white;
+    background-color: #3882F6;
+    border-radius:5px;
+    border:1px solid;
+    padding:5px 35px 5px 35px;
+}
+
+.footer {
+    height:100px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
